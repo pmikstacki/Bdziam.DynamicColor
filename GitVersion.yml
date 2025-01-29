@@ -1,0 +1,8 @@
+workflow: TrunkBased/preview1
+mode: ContinuousDelivery
+branches:
+  main:
+    regex: ^main$
+    label: ''
+    increment: Patch
+    track-merge-message: false
