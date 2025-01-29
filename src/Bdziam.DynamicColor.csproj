@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Title>Bdziam Dynamic Color</Title>
+    <Authors>Cybernomad</Authors>
+    <Description>Material Color Utilities ported to C# from Java (bleh)</Description>
+    <Copyright>2024 Piotr Mikstacki @ CyberNomad</Copyright>
+    <PackageProjectUrl>https://github.com/pmikstacki/Bdziam.DynamicColor/</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/pmikstacki/Bdziam.DynamicColor/refs/heads/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/pmikstacki/Bdziam.DynamicColor/</RepositoryUrl>
+    <PackageTags>Material 3;Dynamic Color; Material Color Utilities;Bdziam</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
