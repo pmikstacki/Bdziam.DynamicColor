@@ -28,7 +28,7 @@ jobs:
       working-directory: ./src/
       run: dotnet-gitversion /updateprojectfiles /showconfig /config ../GitVersion.yml
     - name: Publish Package
-      uses: Jacup/publish-nuget@v2.6.0
+      uses: Jacup/publish-nuget@v2.8.0
       with:
         PROJECT_FILE_PATH: ./src/Bdziam.DynamicColor.csproj
         TAG_COMMIT: false
