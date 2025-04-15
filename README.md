@@ -6,7 +6,7 @@ There is another package [Here](https://github.com/albi005/MaterialColorUtilitie
 calculations, and added few new styles, making the MaterialColorUtilities package for .net obsolete.
 
 # Installation
-![NuGet Version](https://img.shields.io/nuget/v/Bdziam.DynamicColor?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FBdziam.DynamicColor%2F)
+[![NuGet Version](https://img.shields.io/nuget/v/Bdziam.DynamicColor?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FBdziam.DynamicColor%2F)](https://www.nuget.org/packages/Bdziam.DynamicColor/)
 
 
 I used some of the contents of above package, and added DynamicColor classes, which replaced the core palette.
