@@ -27,8 +27,9 @@ jobs:
     - name: RunGitVersion
       working-directory: ./src/
       run: dotnet-gitversion /updateprojectfiles /showconfig /config ../GitVersion.yml
-    - name: Publish Package
-      uses: Jacup/publish-nuget@v2.8.0
+    - name: publish on version change
+      id: publish_nuget
+      uses: Rebel028/publish-nuget@v2.8.0
       with:
         PROJECT_FILE_PATH: ./src/Bdziam.DynamicColor.csproj
         TAG_COMMIT: false
