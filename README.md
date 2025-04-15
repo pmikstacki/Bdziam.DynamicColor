@@ -5,6 +5,10 @@ This is a direct translation of Material Color Utilities from Java to C#
 There is another package [Here](https://github.com/albi005/MaterialColorUtilities/), but Google introduced new Scheme
 calculations, and added few new styles, making the MaterialColorUtilities package for .net obsolete.
 
+# Installation
+![NuGet Version](https://img.shields.io/nuget/v/Bdziam.DynamicColor?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FBdziam.DynamicColor%2F)
+
+
 I used some of the contents of above package, and added DynamicColor classes, which replaced the core palette.
 
 Material Color Utilities is licensed under Apache 2.0 - License can be found [Here](src/MCU_Licence.md)
